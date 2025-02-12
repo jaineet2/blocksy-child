@@ -19,3 +19,18 @@ function blocksy_parent_theme_enqueue_styles() {
 		[ 'blocksy-style' ]
 	);
 }
+function add_technician_registration_link() {
+    if ( isset($_GET['technician_register']) ) {
+        echo '<input type="hidden" name="user_role" value="technician">';
+    } else {
+        echo '<p><a href="' . esc_url( wp_registration_url() . '?technician_register=1' ) . '">Register as Technician</a></p>';
+    }
+}
+add_action( 'register_form', 'add_technician_registration_link' );
+function assign_technician_role_on_registration( $user_id ) {
+    if ( isset( $_POST['user_role'] ) && $_POST['user_role'] === 'technician' ) {
+        $user = new WP_User( $user_id );
+        $user->set_role( 'technician' );
+    }
+}
+add_action( 'user_register', 'assign_technician_role_on_registration' );
