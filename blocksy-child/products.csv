@@ -1,0 +1,21 @@
+name,regular_price,description,short_description,sku,stock_quantity,stock_status,categories
+T-Shirt,19.99,Comfortable cotton T-shirt,Soft and stylish,TS001,50,instock,1
+Jeans,39.99,Slim fit blue jeans,Trendy and durable,JN001,30,instock,1
+Sneakers,59.99,Running sneakers,Lightweight and breathable,SN001,20,instock,2
+Tennis Racket,89.99,Professional tennis racket,Lightweight and strong,TR001,15,instock,2
+Football,29.99,Official size football,Durable and waterproof,FB001,40,instock,2
+Smartphone,499.99,Latest model smartphone,High performance and sleek,SP001,10,instock,3
+Laptop,899.99,Gaming laptop,Powerful with dedicated GPU,LP001,5,instock,3
+Headphones,99.99,Noise-canceling headphones,Crystal clear sound,HP001,25,instock,3
+Backpack,49.99,Waterproof travel backpack,Spacious and durable,BP001,35,instock,4
+Watch,199.99,Smart fitness watch,Tracks steps and heart rate,WT001,12,instock,4
+Sunglasses,79.99,Polarized sunglasses,UV protection,SG001,18,instock,4
+Coffee Maker,129.99,Automatic coffee maker,Brew fresh coffee instantly,CM001,8,instock,5
+Microwave,149.99,Compact microwave oven,Quick and efficient,MW001,7,instock,5
+Blender,69.99,Multi-speed blender,Perfect for smoothies,BL001,15,instock,5
+Yoga Mat,24.99,Non-slip yoga mat,Comfortable and eco-friendly,YM001,22,instock,6
+Dumbbells,49.99,Adjustable dumbbells,Perfect for home workouts,DB001,10,instock,6
+Treadmill,699.99,Foldable treadmill,Compact and powerful,TM001,4,instock,6
+Desk Chair,159.99,Ergonomic office chair,Adjustable and comfortable,DC001,9,instock,7
+Bookshelf,99.99,Wooden bookshelf,Spacious and stylish,BS001,14,instock,7
+Table Lamp,39.99,LED table lamp,Adjustable brightness,TL001,20,instock,7
