@@ -56,4 +56,5 @@ function hide_admin_menus_for_technician() {
         remove_menu_page('tools.php'); // Hide Tools
     }
 }
-add_action('admin_menu', 'hide_admin_menus_for_technician');
+
+
