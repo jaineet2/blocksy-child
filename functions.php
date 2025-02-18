@@ -59,7 +59,16 @@ add_action('acf/init', function () {
                     'return_format' => 'array', // Returns full image array (URL, ID, alt, etc.)
                     'preview_size'  => 'medium',
                 ),
+				array(
+                    'key'           => 'field_product_id',
+                    'label'         => 'Product ID',
+                    'name'          => 'product_id', // Field name for WooCommerce Product ID
+                    'type'          => 'number',  // Ensure the field is a number
+                    'instructions'  => 'Enter the related WooCommerce product ID.',
+                    'required'      => 1, // Make sure this field is required
+                ),
             ),
+            
             'location' => array(
                 array(
                     array(
@@ -80,3 +89,8 @@ add_action('acf/init', function () {
         ));
     }
 });
+
+
+
+?>
+
